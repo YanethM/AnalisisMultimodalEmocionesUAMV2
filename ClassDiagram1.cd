@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BDLocal">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BACIJAEAQCMwAEKJACBIDAA4CAAIAYFAKAIQijAAiwk=</HashCode>
+      <FileName>Assets\Codigos\BDLocal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AplicarProtocolo">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ASQFIACAATgAGAngGUgACAqAEAgARAgBAEAgDACAgBQ=</HashCode>
+      <FileName>Assets\Codigos\AplicarProtocolo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="grabar" />
+      <Field Name="utilidades" />
+      <Field Name="informacion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EmotivInformacion">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAEEAAAAAOCAAAAAAAAAAAAAAAAgABAAAAAAAAAgIAA=</HashCode>
+      <FileName>Assets\Codigos\EmotivInformacion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InciarSesion">
+    <Position X="5.75" Y="11.5" Width="2" />
+    <AssociationLine Name="bdLocal" Type="BDLocal">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.124" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEgABAICAAAAAhAAACAggAAAAAAgAAAAAAoAAIgAQ=</HashCode>
+      <FileName>Assets\Codigos\InciarSesion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="camara" />
+      <Field Name="utilidades" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ListarEstudiantes">
+    <Position X="5.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAUAICAICABAAAACAFAQgsAAqAIQQAAABAAIAQYEAQ=</HashCode>
+      <FileName>Assets\Codigos\ListarEstudiantes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="barraGrafica1" />
+      <Field Name="barraGrafica2" />
+      <Field Name="emotivInfo" />
+      <Field Name="informacion" />
+      <Field Name="utilidades" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Record">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAABAAACACAAAAAiAAAAAAAAACAAQAAAAkAAAAAgAAA=</HashCode>
+      <FileName>Assets\Demo\Scripts\Record.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="grabar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Utilidades">
+    <Position X="9.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAACAAAIAAAAAIAAAAAgIAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Utilidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListarInformacion">
+    <Position X="11.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAEQAAAACAAAAAAAAAgCgJgAEAAgAQAABAAEMAAAAg=</HashCode>
+      <FileName>Assets\Codigos\ListarInformacion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Camara">
+    <Position X="12" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEMACggCAAAAJCAAAAEAiAAAIAAAAAQgAQAAA=</HashCode>
+      <FileName>Assets\Codigos\Camara.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChartAndGraph.BarChart" Collapsed="true">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ChartAndGraph.BarChart.BarEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChartAndGraph.BarChart.BarEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChartAndGraph.BarChart.BarObject" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChartAndGraph.BarChart.GroupObject" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChartAndGraph.BarChart.LabelPositionInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IBwhBABFKWAEkgoIDAsASQEFtABQFxKACEAgIi6AAAA=</HashCode>
+      <FileName>Assets\Chart and Graph\Script\BarChart\BarChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Moments.Recorder" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAhAIYCKQQACAIBBQABAMAAEAAAAAOAAigCJAAIDEA=</HashCode>
+      <FileName>Assets\Scripts\Recorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaFacultades">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\RegistrarEstudiante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistrarEstudiante">
+    <Position X="14.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAgIqSAAAKgAAAAAwgAAAAAgAAIAAAAoAQNggQ=</HashCode>
+      <FileName>Assets\Codigos\RegistrarEstudiante.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="camara" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RegistrarProtocolo">
+    <Position X="16.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEpAAAAKSABACCCEAQAhiIEEgAAAEAAAAAqEAIsAQ=</HashCode>
+      <FileName>Assets\Codigos\RegistrarProtocolo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RegistrarUsuario">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAIoQAAACgAAACAggAAAAAAAAIAAAAoAAIggQ=</HashCode>
+      <FileName>Assets\Codigos\RegistrarUsuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="camara" />
+      <Field Name="utilidades" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VentanaArchivos">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Codigos\VentanaArchivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Estudiante">
+    <Position X="20.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAgSAAACgAAACAAAAEAAAgAAAAAAAACBEAAA=</HashCode>
+      <FileName>Assets\Codigos\Clases\Estudiante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pregunta" Collapsed="true">
+    <Position X="22.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Cuestionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cuestionario">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAFoACCIKAAAAACCEAAAAgAAIAQAAAAAAAQAAARAAA=</HashCode>
+      <FileName>Assets\Codigos\Cuestionario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Protocolo">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAACAAAAAAACgEAAIAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Clases\Protocolo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Usuario">
+    <Position X="20.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgQAAACgAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Clases\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Busqueda">
+    <Position X="24.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAACAAAAAAAAAAAAgAgBAAAAAgAAAAAAAAMAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Busqueda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="informacion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DeteccionEmociones">
+    <Position X="22.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYACAAEACggQAEAAAAAAAUEAAAEQACBBBAAAQAAAAA=</HashCode>
+      <FileName>Assets\Codigos\DeteccionEmociones.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="grafica" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChartAndGraph.GraphChart" Collapsed="true">
+    <Position X="25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQAQAIASEAEAYgSCAqQAgIGwIQUQgAgAEQBAAAAAAA=</HashCode>
+      <FileName>Assets\Chart and Graph\Script\GraphChart\GraphChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ListarProtocolos">
+    <Position X="16.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEAUAACAACGAAIACCAEAAggBEMgIQSAAAAAAKAQYMBQ=</HashCode>
+      <FileName>Assets\Codigos\ListarProtocolos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bdLocal" />
+      <Field Name="informacion" />
+      <Field Name="utilidades" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pantallas">
+    <Position X="20.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Codigos\Pantallas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
